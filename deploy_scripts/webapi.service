@@ -3,7 +3,7 @@ Description=.NET Practice Web API
 
 [Service]
 WorkingDirectory=/var/www/
-ExecStart=/usr/bin/dotnet /var/www/practice_deploy.API.dll
+ExecStart=/usr/bin/dotnet /var/www/practice_deploy.dll
 Restart=always
 
 RestartSec=10
